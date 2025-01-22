@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fastapi-app"
+version = "0.1.0"
+description = ""
+authors = ["yuliag"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytesseract = "^0.3.13"
+fastapi = "^0.115.6"
+requests = "^2.32.3"
+uvicorn = "^0.34.0"
+image = "^1.5.33"
+pillow = "^11.1.0"
+httpx = "^0.28.1"
+parsel = "^1.10.0"
+openai = "^1.59.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
